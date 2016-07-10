@@ -29,8 +29,8 @@ your data is sent back to you.
 I am going to be house sitting for my parents the next few weeks. This is one
 of the personal projects I've decided to give a go during that period.
 
-Feel free to follow the [issues](/issues) to see what is going to happen and
-what has happened. 
+Feel free to follow the [issues](https://github.com/swmcc/custos/issues) to see
+what is going to happen and what has happened. 
 
 ## Should I use this?
 
@@ -41,8 +41,8 @@ configuration.
 ## Development Info
 
 ```
-git clone URL
+git clone git@github.com:swmcc/custos.git 
 cd custos
-how to run
+how to run/install 
 ```
 
