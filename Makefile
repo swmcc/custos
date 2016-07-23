@@ -14,4 +14,4 @@ init: $(VENV_BIN);
 	$(ENTER_VENV); pip install -r requirements.txt
 
 run: $(VENV_BIN);
-	$(ENTER_VENV); export FLASK_APP=app.py; flask run; 
+	$(ENTER_VENV); export APP_SETTINGS="config.DevelopmentConfig"; export FLASK_APP=app.py; flask run; 
