@@ -43,6 +43,7 @@ configuration.
 ```
 git clone git@github.com:swmcc/custos.git 
 cd custos
-how to run/install 
+make init/init.pip
+make run
 ```
 
