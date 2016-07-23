@@ -13,3 +13,5 @@ init.pip: $(VENV_BIN)
 init: $(VENV_BIN);
 	$(ENTER_VENV); pip install -r requirements.txt
 
+run: $(VENV_BIN);
+	$(ENTER_VENV); export FLASK_APP=app.py; flask run; 
